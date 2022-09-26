@@ -62,7 +62,7 @@ window.onload = () => {
 };
 
 loadImages.addEventListener("click", () => {
-  const url = "https://api.pexels.com/v1/search?query=sea";
+  const url = "https://api.pexels.com/v1/search?query=computer";
 
   fetch(url, {
     headers: {
